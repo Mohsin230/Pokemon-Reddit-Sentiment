@@ -4,8 +4,10 @@ to gain insight as to how positive or negative the community is on a given topic
 on more specialized areas (sentiment on specific pokemon, sentiment of each league champs subreddit, sentiment of tekken characters)
 
 File Descriptors:
+
 pkmnRedditSent.py - python file that creates a sentiment analysis based on comments and posts from the pokemon subreddit
 the sentiment analysis was done using the textblob plugin and does a decent job of categorizing texts as either positive, negative or neutral
+
 pokemon.csv - a csv file that contains tons of comments and posts from the pokemon subreddit, this dataset was collected from the kaggle website and has semi outdated data (hasnt been updated in a year)
 however the purpose of this program is to test the capabilities of a sentiment analysis on a given subreddit and if it can be generally accurate
 
